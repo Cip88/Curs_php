@@ -1,9 +1,50 @@
 body {
   background-color: tan;
   font-family: sans-serif;
-  margin-left: 10%;
+  /* margin-left: 50px; */
+  height: 1920px;
 }
-
 h2 {
 color: green;
+}
+
+.guarantee {
+  border-color: white;
+  border-width: 5px;
+  border-style: dashed;
+  background-color: #a7cece;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  line-height: 1.3em;
+  padding: 10px ;
+  padding-left: 80px;
+  margin: auto;
+  box-sizing: content-box;
+  width: 400px;
+
+}
+#ticket {
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  width: 290px;
+}
+a:link {
+  blue
+}
+a:visited {
+  color: #ababab;
+
+}
+a:hover {
+text-decoration: underline;
+color: white;
+}
+
+.song {
+  font-style: italic;
+}
+.artist {
+  font-weight: bold;
 }
