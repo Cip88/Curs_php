@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #f97300;
+  font-size: 1.3em;
+  justify-content: space-between;
+}
+
+.nav-link, .navbar-brand {
+ color: #f4f4f4;
+}
+
+.nav-link:hover {
+  color: black;
+}
+header {
+  height: 100vh;
+  background-image: url(images/headerback.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+   position: absolute;
+   top: 30%;
+   left: 10%;
+   margin: auto;
+   margin-left: 0px;
+   padding: 2em;
+}
+ß.container h1 {
+ color: #F97300;
+}
+.container p {
+ color: #666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.container button {
+ border: 1px solid #F97300;
+ background: #F97300;
+ color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.79);
+}
